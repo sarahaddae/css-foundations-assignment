@@ -163,7 +163,7 @@ label {
   
   /* -------  Media Query ------- */
 
-  @media all and (min-width: 800px) {
+  @media all and (min-width: 480px) {
     section {
       padding: 0 5%;
     }
