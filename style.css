@@ -187,6 +187,7 @@ label {
     
       header nav {
         margin-top: 8px;
+        flex-direction: row;
       }
       header nav ul li a:hover {
         color: #bdbdbd;
