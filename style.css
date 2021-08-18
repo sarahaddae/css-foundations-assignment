@@ -111,6 +111,7 @@ body {
   
   /* -------  Search Form ------- */
   form {
+    width: 100%;
     border: 2px solid #ff385c;
     padding: 10px;
   }
