@@ -163,7 +163,38 @@ label {
   
   /* -------  Media Query ------- */
 
-  @media all and (min-width: 480px) {
+  @media all and (min-width: 600px) {
+    section {
+      padding: 0 5%;
+    }
+  
+    .group {
+      flex-direction: row;
+    }
+
+    header {
+    
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+      }
+    
+      header h1 {
+        display: flex;
+        margin: 14px 0;
+        padding-top: 6px;
+      }
+    
+      header nav {
+        margin-top: 8px;
+        flex-direction: row;
+      }
+      header nav ul li a:hover {
+        color: #bdbdbd;
+      }
+    }
+
+ @media all and (min-width: 800px) {
     section {
       padding: 0 5%;
     }
